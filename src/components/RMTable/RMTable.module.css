@@ -1,0 +1,24 @@
+.characterImage{
+   max-width:80px;
+}
+.table td {
+    vertical-align: middle;
+}
+.table th{
+    color:#C8D948;
+}
+.button{
+    background-color: #C8D948;
+    color:#0d0d0d;
+    border: 1px solid #C8D948;
+    border-radius: 8px;
+    cursor:pointer;
+    padding:10px;
+}
+
+.button:hover{
+    color:#FCFEEF;
+}
+h5{
+    color: #C8D948;
+}

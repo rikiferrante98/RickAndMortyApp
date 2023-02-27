@@ -1,0 +1,30 @@
+.switch {
+    display: flex;
+    margin: 30px 0 50px ;
+    justify-content: center;
+}
+
+.option {
+    display: inline-block;
+    padding: 4px 16px;
+    background: #C8D948;
+    cursor: pointer;
+    border: 1px solid #0d0d0d;
+    color: #0d0d0d;
+}
+
+.option:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.option:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+.option.active {
+    background-color: #0d0d0d;
+    color: white;
+}
