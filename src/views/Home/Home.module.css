@@ -1,0 +1,25 @@
+p{
+    text-align:center;
+    color:#FCFEEF
+}
+h1{
+    text-align: center;
+    color:#fcfeef;
+}
+h4{
+    text-align: center;
+    color:#fcfeef;
+}
+.button{
+    cursor:pointer;
+    background-color: #C8D948;
+    border: 1px solid #C8D948;
+    border-radius:8px;
+    padding:10px;
+    color:#0d0d0d;
+}
+.button:hover {
+    transform: scale(1.4) translateY(-2%);
+    box-shadow: 0 14px 28px rgba(200, 250, 100, 0.5), 0 10px 10px rgba(200, 217, 72, 0.22);
+    color:#fcfeef;
+}
